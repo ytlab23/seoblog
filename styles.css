@@ -7,6 +7,7 @@ body {
     position: relative;
     padding-bottom: 50px; /* Make space for the footer */
 }
+
 .header {
     background: linear-gradient(to right, #4CAF50, #66BB6A);
     color: white;
@@ -14,35 +15,41 @@ body {
     text-align: center;
     position: relative;
 }
+
 .header img {
     height: 50px;
     vertical-align: middle;
 }
+
 .header h1 {
     display: inline-block;
     margin: 0;
     padding-left: 10px;
     vertical-align: middle;
 }
+
 .header h2 {
     margin: 0;
     padding: 10px 0;
     font-weight: normal;
     color: #f1f1f1;
 }
+
 .content {
     padding: 20px;
 }
+
 .about {
-    display: none; /* Hide the about section initially */
-    background: linear-gradient(to right, #333, #555);
+    background: linear-gradient(to right, #4CAF50, #66BB6A); /* Match the header gradient */
     color: white;
     padding: 20px;
     text-align: center;
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
+
 .footer {
     background: linear-gradient(to right, #333, #555);
     color: white;
