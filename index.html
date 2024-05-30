@@ -4,52 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sample Page with Gradient Header and Footer</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            min-height: 100vh;
-            position: relative;
-            padding-bottom: 50px; /* Make space for the footer */
-        }
-        .header {
-            background: linear-gradient(to right, #4CAF50, #66BB6A);
-            color: white;
-            padding: 20px;
-            text-align: center;
-            position: relative;
-        }
-        .header img {
-            height: 50px;
-            vertical-align: middle;
-        }
-        .header h1 {
-            display: inline-block;
-            margin: 0;
-            padding-left: 10px;
-            vertical-align: middle;
-        }
-        .header h2 {
-            margin: 0;
-            padding: 10px 0;
-            font-weight: normal;
-            color: #f1f1f1;
-        }
-        .content {
-            padding: 20px;
-        }
-        .footer {
-            background: linear-gradient(to right, #333, #555);
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -59,9 +14,8 @@
         <h2>Your tagline here</h2>
     </div>
 
-    <!-- Main content of the page -->
-  
-      <div id="about" class="about">
+    <!-- About section - Will only show on the homepage -->
+    <div id="about" class="about">
         <h2>About Us</h2>
         <p>We are a company dedicated to providing the best services to our customers. Our mission is to deliver high-quality products that make a difference in the lives of our clients.</p>
     </div>
@@ -75,16 +29,7 @@
         &copy; 2024 Company Name. All rights reserved.
     </div>
 
-     <script>
-        // Check if the current page is the homepage (index.html)
-        if (window.location.pathname === '/index.html' || window.location.pathname === '/') {
-            // Show the about section
-            document.getElementById('about').style.display = 'block';
-        } else {
-            // Hide the about section
-            document.getElementById('about').style.display = 'none';
-        }
-    </script>
+    <script src="script.js"></script>
 
 </body>
 </html>
