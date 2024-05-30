@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 50px; /* Make space for the footer */
+}
+.header {
+    background: linear-gradient(to right, #4CAF50, #66BB6A);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+.header img {
+    height: 50px;
+    vertical-align: middle;
+}
+.header h1 {
+    display: inline-block;
+    margin: 0;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.header h2 {
+    margin: 0;
+    padding: 10px 0;
+    font-weight: normal;
+    color: #f1f1f1;
+}
+.content {
+    padding: 20px;
+}
+.about {
+    display: none; /* Hide the about section initially */
+    background: linear-gradient(to right, #333, #555);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+.footer {
+    background: linear-gradient(to right, #333, #555);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
