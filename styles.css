@@ -16,16 +16,19 @@ body {
     position: relative;
 }
 
-.header img {
-    height: 50px;
-    vertical-align: middle;
+.logo {
+    display: block;
+    margin: 0 auto 10px; /* Center the logo and add some space below */
+    max-width: 100%;
+}
+
+.header-content {
+    margin-bottom: 20px; /* Add space between logo and title */
 }
 
 .header h1 {
-    display: inline-block;
     margin: 0;
-    padding-left: 10px;
-    vertical-align: middle;
+    padding: 0;
 }
 
 .header h2 {
@@ -40,14 +43,14 @@ body {
 }
 
 .about {
-    background: linear-gradient(to right, #4CAF50, #66BB6A); /* Match the header gradient */
+    background: linear-gradient(to right, #4CAF50, #66BB6A);
     color: white;
     padding: 20px;
     text-align: center;
     margin: 20px auto;
     max-width: 600px;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .footer {
